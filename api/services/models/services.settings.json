@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "name": "Services",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Service": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Show": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}
