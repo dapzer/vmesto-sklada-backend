@@ -10,7 +10,7 @@
           port: env.int("DATABASE_PORT", 5432),
           database: env("DATABASE_NAME", "services"),
           username: env("DATABASE_USERNAME", "postgres"),
-          password: env("DATABASE_PASSWORD", "DOC000"),
+          password: env("DATABASE_PASSWORD", "{cC.F&'+c6}z;`Y7"),
           schema: env("DATABASE_SCHEMA", "public"),
         },
         options: {},
